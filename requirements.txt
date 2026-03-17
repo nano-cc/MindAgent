@@ -1,0 +1,49 @@
+# FastAPI and Web
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+sse-starlette==2.1.2
+
+# Database
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg2-binary==2.9.4
+
+# LangChain and LangGraph
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-openai==0.2.14
+langgraph==0.2.64
+langchain-anthropic==0.3.10
+
+# Vector Database
+chromadb==0.6.3
+
+# LLM Clients
+openai==1.59.9
+anthropic==0.42.0
+
+# Email
+aiosmtplib==3.0.2
+
+# Markdown Parsing
+markdown==3.7
+python-frontmatter==1.1
+
+# Utilities
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# Date/time
+python-dateutil==2.9.0.post0
+
+# HTTP
+httpx==0.28.1
+requests==2.32.3
+
+# Async support
+aiofiles==24.1.0
+
+# Logging
+loguru==0.7.3
